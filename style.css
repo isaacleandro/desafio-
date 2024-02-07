@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.buttonmenu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
