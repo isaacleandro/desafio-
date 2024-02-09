@@ -6,17 +6,25 @@
 
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.589);
     height: 100vh;
-    background-color:antiquewhite;
+    padding: 4rem;
+}
+
+.divGeneral {
+    display: flex;
+    border-radius: 25px;
     margin: 13px;
     gap: 10px;
+    padding: 13px;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .divPrimaryLeft {
     flex: 1.7;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     display: flex;
     flex-direction: column;
     margin: 40px;
@@ -29,69 +37,84 @@ body {
     background-color: black;
     margin: 6px 0;
 }
+
 .okyoMenu {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8rem;
 }
+
 .okyoMenu button {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: none;
     border: none;
     font-size: 1rem;
 }
+
 .okyoMenu button:hover {
-    background:  rgba(179, 105, 20, 0.644);
+    background: rgba(179, 105, 20, 0.644);
 }
+
 .h1Perfect {
-    font-size:2.8rem;
+    font-size: 2.8rem;
 }
+
 .buttonShopDivLeft {
     border: none;
     background-color: inherit;
     display: flex;
     color: grey;
-  }
-  .buttonShopDivLeft:hover {background: rgba(179, 105, 20, 0.644);}
-  .descriptionH1 {
+}
+
+.buttonShopDivLeft:hover {
+    background: rgba(179, 105, 20, 0.644);
+}
+
+.descriptionH1 {
     color: grey;
-  }
+}
 
 
 
 .divPrimarycentral {
     flex: 3;
 }
+
 .imgProdutosOrdinary {
     height: 100%;
     width: 100%;
 }
+
 .descripitionOrdinary {
-    position:relative;
+    position: relative;
     margin-top: -830px;
 }
+
 .h1Ordinary {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 6px;
-    font-size:2.2cap;
+    font-size: 2.2cap;
     margin-left: 3rem;
 }
+
 .h1Shop {
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .h1Collection {
     padding: 7px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .buttonOrdinary {
     padding: 10px;
     padding-left: 1.4rem;
@@ -103,7 +126,10 @@ body {
     margin-top: 1.3rem;
     margin-left: 3rem;
 }
-.buttonOrdinary:hover {background: rgba(179, 105, 20, 0.644);}
+
+.buttonOrdinary:hover {
+    background: rgba(179, 105, 20, 0.644);
+}
 
 
 .divPrimaryright {
@@ -112,25 +138,30 @@ body {
     flex-direction: column;
     gap: 13px;
 }
+
 .explore {
     height: 50%;
-    border-top-right-radius: 10px;
-    background-color: rgba(179, 105, 20, 0.644);
+    background-color: rgba(158, 94, 21, 0.712);
+    border-top-right-radius: 9px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
+
 .buttonexplore {
     border: none;
     display: flex;
     color: white;
     background: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-  }
-  .buttonexplore:hover {background: rgba(179, 105, 20, 0.644);}
+}
+
+.buttonexplore:hover {
+    background: rgba(179, 105, 20, 0.644);
+}
 
 .imgExplore {
     height: 45%;
@@ -138,6 +169,7 @@ body {
     border-top-left-radius: 46%;
     border-top-right-radius: 46%;
 }
+
 .shopNow {
     color: rgb(223, 223, 223);
     background: none;
@@ -147,35 +179,45 @@ body {
     padding-right: 28px;
     border-radius: 4px;
 }
-.shopNow:hover {background: rgba(179, 105, 20, 0.644);}
+
+.shopNow:hover {
+    background: rgba(179, 105, 20, 0.644);
+}
 
 
 
 .education {
     height: 50%;
-    border-bottom-right-radius: 10px;
 }
+
 .imgeducation {
     height: 30%;
     width: 100%;
 }
+
 .allLowImgEducation {
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
     padding: 2rem;
 }
+
 .h1Education {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.6rem;
 }
+
 .pEducation {
     color: rgb(109, 109, 109);
 }
-.buttonEducation{
+
+.buttonEducation {
     border: none;
     background-color: inherit;
     display: flex;
     color: rgb(109, 109, 109);
 }
-.buttonEducation:hover {background: rgba(179, 105, 20, 0.644);}
+
+.buttonEducation:hover {
+    background: rgba(179, 105, 20, 0.644);
+}
