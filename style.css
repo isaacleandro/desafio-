@@ -40,7 +40,7 @@ body {
     border: none;
     font-size: 1rem;
 }
-.okyoMenu button:hove {
+.okyoMenu button:hover {
     background:  rgba(179, 105, 20, 0.644);
 }
 .h1Perfect {
@@ -68,7 +68,7 @@ body {
 }
 .descripitionOrdinary {
     position:relative;
-    margin-top: -850px;
+    margin-top: -830px;
     gap: 15px;
     display: flex;
     flex-direction: column;
@@ -96,12 +96,23 @@ body {
     align-items: center;
     gap: 30px;
 }
+.buttonexplore {
+    border: none;
+    display: flex;
+    color: white;
+    background: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  .buttonexplore:hover {background: rgba(179, 105, 20, 0.644);}
+
 .imgExplore {
     height: 45%;
     width: 58%;
     border-top-left-radius: 46%;
     border-top-right-radius: 46%;
 }
+
 
 
 .education {
