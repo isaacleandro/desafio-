@@ -8,47 +8,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.589);
+    background-color: rgba(134, 129, 108, 0.589);
     height: 100vh;
-    padding: 4rem;
 }
 
 .divGeneral {
     display: flex;
-    border-radius: 25px;
-    margin: 13px;
+    height: 75vh;
+    width: 87vw;
+    border-radius: 18px;
     gap: 10px;
-    padding: 13px;
+    padding: 11px;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .divPrimaryLeft {
-    flex: 1.7;
+    flex: 1.5;
     display: flex;
     flex-direction: column;
     margin: 40px;
-    gap: 40px;
 }
 
 .buttonmenu {
-    width: 25px;
-    height: 3px;
+    width: 16px;
+    height: 2px;
     background-color: black;
-    margin: 6px 0;
+    margin: 3px 0;
 }
 
 .okyoMenu {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8rem;
+    margin-bottom: 6.5rem;
 }
 
 .okyoMenu button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: none;
     border: none;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .okyoMenu button:hover {
@@ -56,7 +54,22 @@ body {
 }
 
 .h1Perfect {
-    font-size: 2.8rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}
+.routine {
+    margin-top: -13px;
+}
+
+.descriptionPDivLeft {
+    font-size: 13px;
+}
+
+.descriptionH1 {
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 2.5rem;
 }
 
 .buttonShopDivLeft {
@@ -64,20 +77,21 @@ body {
     background-color: inherit;
     display: flex;
     color: grey;
+    margin-bottom: 2.7rem;
 }
 
 .buttonShopDivLeft:hover {
     background: rgba(179, 105, 20, 0.644);
 }
-
-.descriptionH1 {
-    color: grey;
+.balls {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 .divPrimarycentral {
-    flex: 3;
+    flex: 2.75;
 }
 
 .imgProdutosOrdinary {
@@ -87,44 +101,44 @@ body {
 
 .descripitionOrdinary {
     position: relative;
-    margin-top: -830px;
+    margin-top: -600px;
 }
 
 .h1Ordinary {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 6px;
-    font-size: 2.2cap;
-    margin-left: 3rem;
+    gap: 4.5px;
+    font-size: 2cap;
+    margin-left: 2.5rem;
 }
 
 .h1Shop {
-    padding: 5px;
+    padding-bottom: 5px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
     background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .h1Collection {
-    padding: 7px;
+    padding-bottom: 4px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 25px;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .buttonOrdinary {
-    padding: 10px;
+    padding: 9px;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.63);
     background-color: black;
-    border-radius: 3px;
+    border-radius: 2px;
     border: none;
-    margin-top: 1.3rem;
-    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .buttonOrdinary:hover {
@@ -133,30 +147,28 @@ body {
 
 
 .divPrimaryright {
-    flex: 1.5;
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 13px;
+    width: 15rem;
 }
 
 .explore {
-    height: 50%;
-    background-color: rgba(158, 94, 21, 0.712);
-    border-top-right-radius: 9px;
+    height: 51%;
+    background-color: rgba(175, 112, 75, 0.678);
+    border-top-right-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
 }
 
 .buttonexplore {
     border: none;
-    display: flex;
     color: white;
     background: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .buttonexplore:hover {
@@ -164,20 +176,18 @@ body {
 }
 
 .imgExplore {
-    height: 45%;
-    width: 58%;
+    height: 50%;
+    width: 55%;
     border-top-left-radius: 46%;
     border-top-right-radius: 46%;
+    margin-top: 25px;
 }
 
 .shopNow {
     color: rgb(223, 223, 223);
     background: none;
     border-color: rgb(223, 223, 223);
-    padding: 10px;
-    padding-left: 28px;
-    padding-right: 28px;
-    border-radius: 4px;
+    margin-top: 35px;
 }
 
 .shopNow:hover {
@@ -187,7 +197,7 @@ body {
 
 
 .education {
-    height: 50%;
+    height: 49%;
 }
 
 .imgeducation {
