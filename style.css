@@ -11,6 +11,25 @@ body {
     background-color: rgba(134, 129, 108, 0.589);
     height: 100vh;
 }
+.menu {
+    display: flex;
+    position: absolute;
+    margin-bottom: 64%;
+    margin-left: 88%;
+    gap: 8px;
+}
+.buttonMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+}
+.imgMenu {
+    
+}
 
 .divGeneral {
     display: flex;
