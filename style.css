@@ -290,4 +290,7 @@ body {
     .descripitionOrdinary {
         display: none;
     }
+    .menu {
+        display: none;
+    }
 }
