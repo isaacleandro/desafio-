@@ -26,9 +26,18 @@ body {
     width: 2.5rem;
     border-radius: 50%;
     border: none;
+    background-color: black;
 }
-.imgMenu {
-    
+.imgMais {
+    height: 50%;
+    width: 50%;
+    filter: invert(1);
+}
+.imgZoom {
+    filter: invert(1);
+}
+.buttonMenu:hover {
+    background: rgba(179, 105, 20, 0.644);
 }
 
 .divGeneral {
